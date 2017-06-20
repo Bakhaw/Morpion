@@ -1,0 +1,45 @@
+body {
+  background-color: #FE9000;
+  margin: 0 auto;
+}
+
+#container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+.un, .deux, .trois {
+  display: inline-block;
+}
+
+.un {
+  border-right: 4px solid #41BBD9;
+}
+.un * {
+  width: 20em;
+  height: 12em;
+  margin-bottom: 3px;
+  margin-right: 1px;
+}
+.deux * {
+  width: 20em;
+  height: 12em;
+  margin-bottom: 3px;
+  margin-right: 1px;
+}
+.trois * {
+  width: 20em;
+  height: 12em;
+  margin-bottom: 3px;
+  margin-right: 1px;
+}
+.deux {
+  border-right: 4px solid #41BBD9;
+
+}
+.line1 {
+  border-bottom: 4px solid #41BBD9;
+  border-width: 100%;
+}
